@@ -13,10 +13,15 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(n: u32) -> u32 {
+    let mut k = 2;
+    if n > 40{
+        k = 1;
+    }
+    k * n
+}
 
 // Don't modify this function!
 #[test]
